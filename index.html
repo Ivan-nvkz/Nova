@@ -1,0 +1,2058 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nova</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+
+      <div class="btn__up">&uarr;</div>
+
+      <header class="header">
+         <div class="header__inner">
+            <div class="header__top">
+               <div class="container">
+                  <div class="header__top-inner">
+                     <div class="header__contacts">
+                        <div class="logo__box">
+                           <a class="logo" href="#">
+                              <img class="logo__img" src="images/header/logo.svg" alt="логотип">
+                           </a>
+                           <p class="logo__box-text">
+                              Ведущая международная
+                              компания по ремонту
+                              балконов и лоджий
+                           </p>
+                        </div>
+                        <div class="contacts__box">
+                           <div class="contacts__calculator" data-da=".menu__list,767,last">
+                              <img class="calculator__img" src="images/icons/calculator.svg" alt="">
+                              <a class="calculator__text" href="#calculator">
+                                 Калькулятор
+                                 стоимости отделки
+                              </a>
+                           </div>
+                           <div class="contacts__social" data-da=".menu__list-item-social,650,last">
+                              <div class="contacts__social-user">
+                                 <img class="social-user__img" src="images/header/header-user-img.jpg" alt="">
+                                 <p class="contacts__questions">
+                                    Есть вопрос?
+                                    <a class="questions__link " href="#">
+                                       Задайте онлайн
+                                    </a>
+                                 </p>
+                              </div>
+                              <ul class="contacts__social-list">
+                                 <li class="contacts__social-item">
+                                    <a class="contacts__social-link" href="#">
+                                       <svg class="social__img social__img-telegram" width="40" height="41"
+                                          viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect y="0.5" width="40" height="40" rx="20" fill="#0088CC"
+                                             fill-opacity="0.9" />
+                                          <path
+                                             d="M30 12.6052L10 20.5L17.3684 21.5526M30 12.6052L27.3684 28.3947L17.3684 21.5526M30 12.6052L17.3684 21.5526M17.3684 21.5526V27.3421L20.7882 23.8925"
+                                             stroke="white" stroke-width="1.57895" stroke-linecap="round"
+                                             stroke-linejoin="round" />
+                                       </svg>
+                                    </a>
+                                 </li>
+                                 <li class="contacts__social-item">
+                                    <a class="contacts__social-link" href="#">
+                                       <svg class="social__img social__img-whatsapp" width="40" height="41"
+                                          viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect y="0.5" width="40" height="40" rx="20" fill="#20BC5F" />
+                                          <path
+                                             d="M24.3289 22.3885C24.0947 22.2682 22.9281 21.6967 22.7111 21.6193C22.4941 21.5377 22.3352 21.499 22.1783 21.7396C22.0193 21.9781 21.5682 22.5088 21.4264 22.6699C21.2889 22.8289 21.1492 22.8482 20.915 22.7301C19.5229 22.034 18.6098 21.4883 17.6924 19.9135C17.4496 19.4945 17.9352 19.5246 18.3885 18.6201C18.4658 18.4611 18.4271 18.3258 18.367 18.2055C18.3068 18.0852 17.8342 16.9207 17.6365 16.4459C17.4453 15.984 17.2477 16.0484 17.1037 16.0398C16.9662 16.0312 16.8094 16.0312 16.6504 16.0312C16.4914 16.0312 16.2357 16.0914 16.0188 16.3256C15.8018 16.5641 15.1895 17.1377 15.1895 18.3021C15.1895 19.4666 16.0381 20.5945 16.1541 20.7535C16.2744 20.9125 17.8234 23.3016 20.2018 24.3307C21.7057 24.9795 22.2943 25.0354 23.0463 24.9236C23.5039 24.8549 24.4471 24.3521 24.6426 23.7957C24.8381 23.2414 24.8381 22.7666 24.7801 22.6678C24.7221 22.5625 24.5631 22.5023 24.3289 22.3885Z"
+                                             fill="white" />
+                                          <path
+                                             d="M28.8775 16.7703C28.3919 15.6166 27.6958 14.5811 26.8085 13.6916C25.9212 12.8043 24.8857 12.1061 23.7298 11.6227C22.5482 11.1264 21.2935 10.875 20.0001 10.875H19.9572C18.6552 10.8814 17.3941 11.1393 16.2081 11.6463C15.063 12.1361 14.0361 12.8322 13.1573 13.7195C12.2786 14.6068 11.589 15.6381 11.112 16.7875C10.6179 17.9777 10.3687 19.2432 10.3751 20.5451C10.3816 22.0361 10.7382 23.5164 11.4064 24.8398V28.1055C11.4064 28.6512 11.8489 29.0938 12.3947 29.0938H15.6624C16.9859 29.7619 18.4661 30.1186 19.9572 30.125H20.0023C21.2892 30.125 22.5374 29.8758 23.7126 29.3881C24.862 28.909 25.8954 28.2215 26.7806 27.3428C27.6679 26.4641 28.3661 25.4371 28.8538 24.292C29.3609 23.1061 29.6187 21.8449 29.6251 20.543C29.6316 19.2346 29.378 17.9648 28.8775 16.7703ZM25.6312 26.1805C24.1251 27.6715 22.1271 28.4922 20.0001 28.4922H19.9636C18.6681 28.4857 17.3812 28.1635 16.2447 27.5576L16.0642 27.4609H13.0392V24.4359L12.9425 24.2555C12.3366 23.1189 12.0144 21.832 12.0079 20.5365C11.9993 18.3945 12.8179 16.3836 14.3197 14.8689C15.8193 13.3543 17.8238 12.5164 19.9657 12.5078H20.0023C21.0765 12.5078 22.1185 12.7162 23.1003 13.1287C24.0585 13.5305 24.9179 14.1084 25.657 14.8475C26.3939 15.5844 26.9739 16.4459 27.3757 17.4041C27.7925 18.3967 28.0009 19.4494 27.9966 20.5365C27.9837 22.6764 27.1437 24.6809 25.6312 26.1805Z"
+                                             fill="white" />
+                                       </svg>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="contacts__phone">
+                              <a class="phone" href="tel:73422540202">
+                                 +7 (342) 254-02-02
+                              </a>
+                              <a class="phone__info" data-fancybox data-src="#call-back" href="javascript:;">
+                                 Перезвоним за 30 секунд
+                              </a>
+                           </div>
+                        </div>
+                        <button type="button" class="icon-menu"><span></span></button>
+                     </div>
+                     <div class="header__navigation">
+                        <nav class="menu">
+                           <ul class="menu__list">
+                              <li class="logo__item">
+                                 <a class="logo" href="#">
+                                    <img class="logo__img-mobile " src="images/header/logo.svg" alt="логотип">
+                                 </a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#calculator">Калькулятор стоимости</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#examples">Наши работы</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#services">Дополнительные услуги</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#measuring">Запись на замер</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#reviews">Отзывы клиентов</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#contacts">Контакты</a>
+                              </li>
+                              <li class="menu__list-item  menu__list-item-mobile">
+                                 <div class="contacts__phone-mobile">
+                                    <a class="phone-mobile" href="tel:79852624836">
+                                       +7 (985) 262-48-36
+                                    </a>
+                                    <a class="phone__info-mobile" data-fancybox data-src="#call-back"
+                                       href="javascript:;">
+                                       Перезвоним за 30 секунд
+                                    </a>
+                                 </div>
+                              </li>
+                              <li class="menu__list-item menu__list-item-social"></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header__content">
+               <div class="container">
+                  <div class="header__content-inner">
+                     <div class="header__title-box">
+                        <p class="header__description">
+                           Более 10 лет опыта
+                        </p>
+                        <h1 class="header__title">
+                           Остекление и отделка
+                        </h1>
+                        <h2 class="header__sub-title">
+                           балконов и лоджий в Перми
+                        </h2>
+                        <p class="header__info">
+                           с гарантией и <br class="header__info-br">
+                           <span class="header__info--color">
+                              скидкой 10 000 руб. до 15 апреля!
+                           </span>
+                        </p>
+                        <div class="terms__block">
+                           <ul class="terms__list">
+                              <li class="terms__list-item">
+                                 <img class="terms__img" src="images/icons/terms-01.svg" alt="">
+                                 <div class="terms__content">
+                                    <h3 class="terms__title">
+                                       Уборка
+                                    </h3>
+                                    <p class="terms__text">
+                                       после монтажа
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="terms__list-item">
+                                 <img class="terms__img" src="images/icons/terms-02.svg" alt="">
+                                 <div class="terms__content">
+                                    <h3 class="terms__title">
+                                       Рассрочка
+                                    </h3>
+                                    <p class="terms__text">
+                                       без процентов
+                                    </p>
+                                 </div>
+                              </li>
+                              <li class="terms__list-item">
+                                 <img class="terms__img" src="images/icons/terms-03.svg" alt="">
+                                 <div class="terms__content">
+                                    <h3 class="terms__title">
+                                       Гарантия
+                                    </h3>
+                                    <p class="terms__text">
+                                       по договору
+                                    </p>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="header__btn-box">
+                           <a class="call__btn" data-fancybox data-src="#application" href="javascript:;">
+                              Бесплатный вызов замерщика
+                           </a>
+                           <div class="offer">
+                              <img class="offer__img" src="images/icons/offer-img.svg" alt="">
+                              <p class="offer__text">
+                                 Успейте зафиксировать скидку и получить
+                                 бесплатный расчет вашего проекта
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="header__info-box">
+                        <ul class="header__info-list">
+                           <li class="header__info-item">
+                              <div class="header__info-inner">
+                                 <img class="header__info-img" src="images/icons/info-img.svg" alt="">
+                                 <div class="header__info-content">
+                                    <h6 class="header__info-title">
+                                       Лучшая стоимость
+                                    </h6>
+                                    <p class="header__info-text">
+                                       на дизайнерскую отделку
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="header__info-item">
+                              <div class="header__info-inner">
+                                 <img class="header__info-img" src="images/icons/info-img.svg" alt="">
+                                 <div class="header__info-content">
+                                    <h6 class="header__info-title">
+                                       Разберем балкон
+                                    </h6>
+                                    <p class="header__info-text">
+                                       и уберем мусор
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="header__info-item">
+                              <div class="header__info-inner">
+                                 <img class="header__info-img" src="images/icons/info-img.svg" alt="">
+                                 <div class="header__info-content">
+                                    <h6 class="header__info-title">
+                                       Завершим работы
+                                    </h6>
+                                    <p class="header__info-text">
+                                       в течение 2-3 дней
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="header__info-item">
+                              <div class="header__info-inner">
+                                 <img class="header__info-img" src="images/icons/info-img.svg" alt="">
+                                 <div class="header__info-content">
+                                    <h6 class="header__info-title">
+                                       Работаем по договору
+                                    </h6>
+                                    <p class="header__info-text">
+                                       и фиксируем сроки монтажа
+                                    </p>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+
+         <section class="quiz section-indent" id="calculator">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title quiz__title"><b>Калькулятор стоимости</b> отделки <br
+                           class="quiz__title-br"> и остекления
+                        балкона</h3>
+                     <h5 class="section__sub-title">
+                        Ответьте всего на 6 вопросов и получите расчет вашего балкона и подарок от компании
+                     </h5>
+                  </div>
+               </div>
+               <div class="quiz__inner">
+
+               </div>
+            </div>
+         </section>
+
+         <section class="examples section-indent" id="examples">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title"><b>Примеры готовых балконов</b></h3>
+                     <h3 class="section__title"> с остеклением и отделкой </h3>
+                     <h5 class="section__sub-title">
+                        За время работы остеклили и преобразили <br class="examples__sub-title-br"> более 1 500 балконов
+                     </h5>
+                  </div>
+               </div>
+               <div class="examples__inner section-inner">
+                  <div class="examples-content__block">
+                     <div class="examples-content__inner">
+                        <div class="content__info-box">
+                           <p class="content__info-text">
+                              <b>Среди наших работ балконы</b> различных площадей и планировок, выполненных с
+                              применением
+                              выбранных отделочных материалов и бюджета
+                           </p>
+                        </div>
+                        <div class="content__buttons-box">
+                           <div class="swiper-button-prev examples-button-prev">
+                              <svg class="slider-btn-img  examples-button__img examples-button-prev__img" width="100"
+                                 height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_d_3536_287)">
+                                    <path
+                                       d="M50.014 16C33.4532 16 20.028 29.4315 20.028 46C20.028 62.5685 33.4532 76 50.014 76C66.5748 76 80 62.5685 80 46C80 29.4315 66.5748 16 50.014 16Z"
+                                       fill="white" />
+                                    <path class="slider-btn-arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M43.8076 45.3934L43.1005 46.1005L53 56L54.4142 54.5858L45.9289 46.1005L54.4142 37.6152L53 36.201L43.8076 45.3934Z"
+                                       fill="#1C1C1C" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_d_3536_287" x="0" y="0" width="100" height="100"
+                                       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feColorMatrix in="SourceAlpha" type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                       <feOffset dy="4" />
+                                       <feGaussianBlur stdDeviation="10" />
+                                       <feComposite in2="hardAlpha" operator="out" />
+                                       <feColorMatrix type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+                                       <feBlend mode="normal" in2="BackgroundImageFix"
+                                          result="effect1_dropShadow_3536_287" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3536_287"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </div>
+                           <div class="swiper-button-next examples-button-next">
+                              <svg class="slider-btn-img   examples-button__img examples-button-next__img" width="100"
+                                 height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_d_3536_291)">
+                                    <path
+                                       d="M49.986 76C66.5468 76 79.972 62.5685 79.972 46C79.972 29.4315 66.5468 16 49.986 16C33.4252 16 20 29.4315 20 46C20 62.5685 33.4252 76 49.986 76Z"
+                                       fill="white" />
+                                    <path class="slider-btn-arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M56.1924 46.6066L56.8995 45.8995L47 36L45.5858 37.4142L54.0711 45.8995L45.5858 54.3848L47 55.799L56.1924 46.6066Z"
+                                       fill="#1C1C1C" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_d_3536_291" x="0" y="0" width="100" height="100"
+                                       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feColorMatrix in="SourceAlpha" type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                       <feOffset dy="4" />
+                                       <feGaussianBlur stdDeviation="10" />
+                                       <feComposite in2="hardAlpha" operator="out" />
+                                       <feColorMatrix type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+                                       <feBlend mode="normal" in2="BackgroundImageFix"
+                                          result="effect1_dropShadow_3536_291" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3536_291"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </div>
+                           <div class="swiper-pagination examples-pagination"></div>
+                        </div>
+                        <div class="content__form-box" data-da=".examples__inner,767,last">
+                           <form class="content__form" action="#">
+                              <div class="content__form-inner">
+                                 <div class="content__form-title">
+                                    Оставьте заявку на расчет:
+                                 </div>
+                                 <div class="form-action__box">
+                                    <div class="action-input__inner">
+                                       <input type="tel" name="phone" class="form-action__input"
+                                          placeholder="+7 (999) 999 99 99" autocomplete="off">
+                                    </div>
+                                    <a class="call-back__button" data-fancybox data-src="#call-back"
+                                       href="javascript:;">
+                                       Перезвонить
+                                    </a>
+                                 </div>
+                                 <div class="personal-data">
+                                    Нажимая на кнопку “Перезвонить”, вы даете согласие на обработку своих
+                                    <a class="personal-data__link" href="#">
+                                       персональных данных
+                                    </a>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="examples-slider__block">
+                     <div class="swiper examples-slider">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide examples-slide">
+                              <div class="examples-slide__inner">
+                                 <div class="examples-pictures">
+                                    <div class="examples-pictures__inner">
+                                       <a class="picture__big" data-fancybox="gallery"
+                                          href="images/slider/examples/examples-big-img-01.jpg">
+                                          <img class="picture__big-img"
+                                             src="images/slider/examples/examples-big-img-01.jpg" alt="">
+                                       </a>
+                                       <div class="pictures__small">
+                                          <a class="small__picture" data-fancybox="gallery"
+                                             href="images/slider/examples/examples-small-img-01.jpg">
+                                             <img class="small__picture-img"
+                                                src="images/slider/examples/examples-small-img-01.jpg" alt="">
+                                          </a>
+                                          <a class="small__picture" data-fancybox="gallery"
+                                             href="images/slider/examples/examples-small-img-02.jpg">
+                                             <img class="small__picture-img"
+                                                src="images/slider/examples/examples-small-img-02.jpg" alt="">
+                                          </a>
+                                          <a class="small__picture" data-fancybox="gallery"
+                                             href="images/slider/examples/examples-small-img-03.jpg">
+                                             <img class="small__picture-img"
+                                                src="images/slider/examples/examples-small-img-03.jpg" alt="">
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="pictures__description">
+                                    <div class="description__title">
+                                       Остекление и отделка балкона в ЖК “Новая Сила”
+                                    </div>
+                                    <div class="description__text">
+                                       Сделано теплое остекление и полная отделка балкона включая электрику
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide examples-slide">
+                              <div class="examples-slide__inner">
+                                 <div class="examples-pictures">
+                                    <div class="examples-pictures__inner">
+                                       <a class="picture__big" data-fancybox="gallery"
+                                          href="images/slider/examples/examples-big-img-01.jpg">
+                                          <img class="picture__big-img"
+                                             src="images/slider/examples/examples-big-img-01.jpg" alt="">
+                                       </a>
+                                       <div class="pictures__small">
+                                          <a class="small__picture" data-fancybox="gallery"
+                                             href="images/slider/examples/examples-small-img-01.jpg">
+                                             <img class="small__picture-img"
+                                                src="images/slider/examples/examples-small-img-01.jpg" alt="">
+                                          </a>
+                                          <a class="small__picture" data-fancybox="gallery"
+                                             href="images/slider/examples/examples-small-img-02.jpg">
+                                             <img class="small__picture-img"
+                                                src="images/slider/examples/examples-small-img-02.jpg" alt="">
+                                          </a>
+                                          <a class="small__picture" data-fancybox="gallery"
+                                             href="images/slider/examples/examples-small-img-03.jpg">
+                                             <img class="small__picture-img"
+                                                src="images/slider/examples/examples-small-img-03.jpg" alt="">
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="pictures__description">
+                                    <div class="description__title">
+                                       Остекление и отделка балкона в ЖК “#2”
+                                    </div>
+                                    <div class="description__text">
+                                       Сделано теплое остекление и полная отделка балкона включая электрику
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide examples-slide">
+                              <div class="examples-slide__inner">
+                                 <div class="examples-pictures">
+                                    <div class="examples-pictures__inner">
+                                       <a class="picture__big" data-fancybox="gallery" href="images/test-img.jpg">
+                                          <img class="picture__big-img" src="images/test-img.jpg" alt="">
+                                       </a>
+                                       <div class="pictures__small">
+                                          <a class="small__picture" data-fancybox="gallery" href="images/test-img.jpg">
+                                             <img class="small__picture-img" src="images/test-img.jpg" alt="">
+                                          </a>
+                                          <a class="small__picture" data-fancybox="gallery" href="images/test-img.jpg">
+                                             <img class="small__picture-img" src="images/test-img.jpg" alt="">
+                                          </a>
+                                          <a class="small__picture" data-fancybox="gallery" href="images/test-img.jpg">
+                                             <img class="small__picture-img" src="images/test-img.jpg" alt="">
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="pictures__description">
+                                    <div class="description__title">
+                                       Остекление и отделка балкона в ЖК “#3”
+                                    </div>
+                                    <div class="description__text">
+                                       Сделано теплое остекление и полная отделка балкона включая электрику
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="services section-indent" id="services">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title">Оказываем <br class="services__title-br"><b>дополнительные услуги</b>
+                     </h3>
+                     <h5 class="section__sub-title">
+                        Для создания современного, <br class="services__sub-title-br"> функционального и уютного балкона
+                     </h5>
+                  </div>
+               </div>
+            </div>
+            <div class="services__wrapper">
+               <div class="container services-container">
+                  <div class="services__inner">
+                     <div class="swiper services-slider">
+                        <div class="swiper-wrapper services-slider__wrapper">
+                           <div class="swiper-slide services-slide">
+                              <img class="slide__pictures" src="images/slider/services/services-img-01.jpg" alt="">
+                              <div class="slide__card">
+                                 <div class="slide__card-inner">
+                                    <div class="card__body">
+                                       <h3 class="card__title">
+                                          Встроенная <br class="card__title-br">
+                                          мебель
+                                       </h3>
+                                       <div class="card__info-box">
+                                          <p class="card__info-text">
+                                             Изготовим и установим функциональную, вместительную и эстетичную мебель
+                                             (шкафы, сидушки, кровати, столики и.т.д.)
+                                          </p>
+                                       </div>
+                                       <div class="card__price-box">
+                                          <p class="card__price">
+                                             от <span class="card__price-num"> 10 000 </span> руб.
+                                          </p>
+                                       </div>
+                                       <div class="card__button-box">
+                                          <a class="card__btn" data-fancybox data-src="#application"
+                                             href="javascript:;">
+                                             Зазказать
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide services-slide">
+                              <img class="slide__pictures" src="images/slider/services/services-img-02.jpg" alt="">
+                              <div class="slide__card">
+                                 <div class="slide__card-inner">
+                                    <div class="card__body">
+                                       <h3 class="card__title">
+                                          Совмещение с <br class="card__title-br"> комнатой или кухней
+                                       </h3>
+                                       <div class="card__info-box">
+                                          <p class="card__info-text">
+                                             Вы сможете использовать лоджию как полноценную комнату, рабочий кабинет,
+                                             спорт.зал, обеденную или игровую зону
+                                          </p>
+                                       </div>
+                                       <div class="card__price-box">
+                                          <p class="card__price">
+                                             от <span class="card__price-num">50 000 </span> руб.
+                                          </p>
+                                       </div>
+                                       <div class="card__button-box">
+                                          <a class="card__btn" data-fancybox data-src="#application"
+                                             href="javascript:;">
+                                             Зазказать
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide services-slide">
+                              <img class="slide__pictures" src="images/slider/services/services-img-03.jpg" alt="">
+                              <div class="slide__card">
+                                 <div class="slide__card-inner">
+                                    <div class="card__body">
+                                       <h3 class="card__title">
+                                          Электрика <br class="card__title-br">
+                                          и освещение
+                                       </h3>
+                                       <div class="card__info-box">
+                                          <p class="card__info-text">
+                                             Выполним монтаж электрики и освещения под ключ, установим розетки,
+                                             выключатели
+                                             и теплый пол на вашем балконе
+                                          </p>
+                                       </div>
+                                       <div class="card__price-box">
+                                          <p class="card__price">
+                                             от <span class="card__price-num">350</span> руб.
+                                          </p>
+                                       </div>
+                                       <div class="card__button-box">
+                                          <a class="card__btn" data-fancybox data-src="#application"
+                                             href="javascript:;">
+                                             Зазказать
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide services-slide">
+                              <img class="slide__pictures" src="images/slider/services/services-img-04.jpg" alt="">
+                              <div class="slide__card">
+                                 <div class="slide__card-inner">
+                                    <div class="card__body">
+                                       <h3 class="card__title">
+                                          Монтаж крыши <br class="card__title-br">
+                                          или навеса
+                                       </h3>
+                                       <div class="card__info-box">
+                                          <p class="card__info-text">
+                                             Изготовим под ваши размеры и установим крышу или навес и выполним все виды
+                                             монтажных и сварочных работ
+                                          </p>
+                                       </div>
+                                       <div class="card__price-box">
+                                          <p class="card__price">
+                                             от <span class="card__price-num">9 000 </span> руб.
+                                          </p>
+                                       </div>
+                                       <div class="card__button-box">
+                                          <a class="card__btn" data-fancybox data-src="#application"
+                                             href="javascript:;">
+                                             Зазказать
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="discount section-indent">
+            <div class="container">
+               <h6 class="tech__title">Скидки</h6>
+               <div class="discount__inner">
+                  <div class="discount__body">
+                     <div class="discount__item">
+                        <p class="label">
+                           При заказе с сайта <b>до 30 апреля </b>
+                        </p>
+                     </div>
+                     <div class="discount__item">
+                        <div class="discount__title">
+                           Дарим <b> скидку 10 000 руб.</b> <br class="discount__title-br"> на все дополнительные услуги
+                        </div>
+                     </div>
+                     <div class="discount__item">
+                        <ul class="discount__item-list">
+                           <li class="discount-list__item">
+                              <img class="discount__item-icon" src="images/icons/discount-icon.svg" alt="">
+                              <div class="discount__item-text">
+                                 <b>Бесплатно </b>привезем образцы материалов
+                              </div>
+                           </li>
+                           <li class="discount-list__item">
+                              <img class="discount__item-icon" src="images/icons/discount-icon.svg" alt="">
+                              <div class="discount__item-text">
+                                 <b>Пришлем </b> расчет на телефон
+                              </div>
+                           </li>
+                           <li class="discount-list__item">
+                              <img class="discount__item-icon" src="images/icons/discount-icon.svg" alt="">
+                              <div class="discount__item-text">
+                                 <b>Забронируем </b> скидку 10 000 руб.
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="discount__item">
+                        <form class="discount__form" action="#">
+                           <div class="discount__form-buttons">
+                              <input type="tel" name="phone" class="discount__input" placeholder="+7 (999) 999 99 99"
+                                 autocomplete="off">
+                              <a class="discount__btn" href="#">
+                                 Получить скидку
+                                 <img class="discount-btn__icon" src="images/icons/discount-btn-icon.svg" alt="">
+                              </a>
+                           </div>
+                        </form>
+                        <div class="personal-data">
+                           Нажимая на кнопку “Получить скидку”, вы даете согласие на обработку своих
+                           <a class="personal-data__link" href="#">
+                              персональных данных
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discount__pictures">
+                     <img class="discount__img" src="images/main/discount-bg.png" alt="">
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="reason section-indent">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title">Вот еще <b>6 причин</b><br class="title-reason__br"> обратиться к нам,
+                     </h3>
+                     <h5 class="section__sub-title">
+                        и доверить создание теплого балкона профессионалам
+                     </h5>
+                  </div>
+               </div>
+               <div class="reason__inner section-inner">
+                  <ul class="reason__items">
+                     <li class="reason__item reason__item--left">
+                        <div class="reason__body">
+                           <div class="reason__content">
+                              <div class="reason__title">
+                                 Опытные <br class="reason__title-br"> специалисты
+                              </div>
+                              <div class="reason__text">
+                                 Занимаемся любимым делом более 12 лет, являемся безусловными экспертами в области
+                                 отделки и остекления балконов
+                              </div>
+                           </div>
+                           <div class="reason__pictures">
+                              <img class="reason__img" src="images/main/reason-icon-01.svg" alt="">
+                           </div>
+                        </div>
+                     </li>
+                     <li class="reason__item reason__item--center">
+                        <div class="reason__body">
+                           <div class="reason__content">
+                              <div class="reason__title">
+                                 Гарантия <br class="reason__title-br"> 10 лет
+                              </div>
+                              <div class="reason__text">
+                                 При заключении договора фиксируем гарантию на выполненные работы и использованные
+                                 материалы
+                              </div>
+                           </div>
+                           <div class="reason__pictures">
+                              <img class="reason__img" src="images/main/reason-icon-02.svg" alt="">
+                           </div>
+                        </div>
+                     </li>
+                     <li class="reason__item reason__item--right">
+                        <div class="reason__body">
+                           <div class="reason__content">
+                              <div class="reason__title">
+                                 Соблюдаем <br class="reason__title-br"> чистоту
+                              </div>
+                              <div class="reason__text">
+                                 При выполнении работ укрываем мебель плёнкой, а по завершению вывозим весь строительный
+                                 мусор, при заказе услуги
+                              </div>
+                           </div>
+                           <div class="reason__pictures">
+                              <img class="reason__img" src="images/main/reason-icon-03.svg" alt="">
+                           </div>
+                        </div>
+                     </li>
+                     <li class="reason__item reason__item--left">
+                        <div class="reason__body">
+                           <div class="reason__content">
+                              <div class="reason__title">
+                                 Бесплатный замер <br class="reason__title-br"> и консультация
+                              </div>
+                              <div class="reason__text">
+                                 Приедем на замер с образцами материалов отделки, оконных профилей и каталогом
+                                 выполненных проектов
+                              </div>
+                           </div>
+                           <div class="reason__pictures">
+                              <img class="reason__img" src="images/main/reason-icon-04.svg" alt="">
+                           </div>
+                        </div>
+                     </li>
+                     <li class="reason__item reason__item--center">
+                        <div class="reason__body">
+                           <div class="reason__content">
+                              <div class="reason__title">
+                                 Рассрочка <br class="reason__title-br"> до 36 месяцев
+                              </div>
+                              <div class="reason__text">
+                                 Предоставляем рассрочку без переплат и лишних процентов напрямую от банков-партнеров
+                                 “Окна-Нова”
+                              </div>
+                           </div>
+                           <div class="reason__pictures">
+                              <img class="reason__img" src="images/main/reason-icon-05.svg" alt="">
+                           </div>
+                        </div>
+                     </li>
+                     <li class="reason__item reason__item--right">
+                        <div class="reason__body">
+                           <div class="reason__content">
+                              <div class="reason__title">
+                                 Доставка <br class="reason__title-br"> материалов
+                              </div>
+                              <div class="reason__text">
+                                 Самостоятельно закупим, доставим и поднимем на этаж необходимые для монтажа
+                                 строительные материалы
+                              </div>
+                           </div>
+                           <div class="reason__pictures">
+                              <img class="reason__img" src="images/main/reason-icon-06.svg" alt="">
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section class="person section-indent">
+            <div class="container">
+               <div class="person__inner">
+                  <div class="person__body">
+                     <div class="person__content-block">
+                        <div class="content__title-block">
+                           <h3 class="person__title">
+                              Делаем балконы которые, прослужат <b>более 30 лет</b>
+                           </h3>
+                        </div>
+                        <div class="content__text-block">
+                           <img class="text-decor__img" src="images/icons/quote-icon.svg" alt="">
+                           <div class="content__description">
+                              Здравствуйте, меня зовут Владислав Слащев, я основатель и руководитель компании Окна-Нова!
+                           </div>
+                           <p class="content__text">
+                              Опыт, накопленный нами с 2012 года, позволяет выполнять самые сложные, красивые, стильные
+                              и необычные проекты и быть №1 в городе!
+                           </p>
+                           <p class="content__text">
+                              Мы делаем всё для того, чтобы Клиентам было максимально комфортно и удобно работать с
+                              нашей компанией. Вы получите только качественный и стильный балкон, на котором захочется
+                              проводить больше времени.
+                           </p>
+                        </div>
+                        <div class="content__message-block" data-da=".person__inner,767,last">
+                           <img class="message__img" src="images/icons/message-icon.svg" alt="">
+                           <a class="message__link" href="mailto:info@mail.ru">
+                              Сообщение основателю компании
+                           </a>
+                        </div>
+                     </div>
+                     <div class="person__pictures-block">
+                        <div class="person__pictures">
+                           <img class="person__img" src="images/main/person.png" alt="">
+                        </div>
+                        <div class="person__num">
+                           <ul class="person__list">
+                              <li class="person__list-item">
+                                 <div class="person__list-num"><span class="num--small">№ </span> 1</div>
+                                 <div class="person__list-text">на рынке остекления </div>
+                                 <div class="person__list-text">и отделки балконов</div>
+                              </li>
+                              <li class="person__list-item">
+                                 <div class="person__list-num">12 <span class="num--small">лет</span></div>
+                                 <div class="person__list-text">опыта и </div>
+                                 <div class="person__list-text">высоких достижений</div>
+                              </li>
+                              <li class="person__list-item">
+                                 <div class="person__list-num">80<span class="num--small"> +</span></div>
+                                 <div class="person__list-text">сотрудников</div>
+                                 <div class="person__list-text">в нашей команде</div>
+                              </li>
+                              <li class="person__list-item">
+                                 <div class="person__list-num">0 <span class="num--small">%</span></div>
+                                 <div class="person__list-text">беспроцентная</div>
+                                 <div class="person__list-text">рассрочка для всех</div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="reviews section-indent" id="reviews">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title"><b>Более 1500 отзывов </b><br class="title-reviews__br"> наших клиентов
+                     </h3>
+                     <h5 class="section__sub-title">
+                        за 2022 год выполнили работы на 870 балконах
+                     </h5>
+                  </div>
+               </div>
+               <div class="reviews__inner">
+                  <div class="rating__block" data-da=".reviews__video-box,767,first">
+                     <ul class="rating__list">
+                        <li class="rating-list__item">
+                           <div class="rating__item-body">
+                              <div class="company-name">
+                                 <img class="company-img" src="images/main/company-img-01.svg" alt="">
+                              </div>
+                              <div class="stars__box">
+                                 <div class="stars__evaluation">
+                                    4,8
+                                 </div>
+                                 <div class="stars__pictures">
+                                    <img class="stars__img" src="images/main/star-img.svg" alt="">
+                                    <div class="quantity-ratings">
+                                       44 оценки
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="rating-list__item">
+                           <div class="rating__item-body">
+                              <div class="company-name">
+                                 <img class="company-img" src="images/main/company-img-02.svg" alt="">
+                              </div>
+                              <div class="stars__box">
+                                 <div class="stars__evaluation">
+                                    4,7
+                                 </div>
+                                 <div class="stars__pictures">
+                                    <img class="stars__img" src="images/main/star-img.svg" alt="">
+                                    <div class="quantity-ratings">
+                                       97 оценок
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="rating-list__item">
+                           <div class="rating__item-body">
+                              <div class="company-name">
+                                 <img class="company-img" src="images/main/company-img-03.svg" alt="">
+                              </div>
+                              <div class="stars__box">
+                                 <div class="stars__evaluation">
+                                    4,8
+                                 </div>
+                                 <div class="stars__pictures">
+                                    <img class="stars__img" src="images/main/star-img.svg" alt="">
+                                    <div class="quantity-ratings">
+                                       52 оценки
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="rating-list__item">
+                           <div class="rating__item-body">
+                              <div class="company-name">
+                                 <img class="company-img" src="images/main/company-img-04.svg" alt="">
+                              </div>
+                              <div class="stars__box">
+                                 <div class="stars__evaluation">
+                                    4,6
+                                 </div>
+                                 <div class="stars__pictures">
+                                    <img class="stars__img" src="images/main/star-img.svg" alt="">
+                                    <div class="quantity-ratings">
+                                       88 оценок
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="content__block">
+                     <div class="reviews__video-box">
+                        <div class="video__pictures">
+                           <img class="video__img" src="images/main/video-bg.jpg" alt="">
+                           <a class="play__btn" data-fancybox href="https://youtu.be/5bo51sL8Fr4">
+                              <svg class="play__img" width="82" height="81" viewBox="0 0 82 81" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_b_3644_568)">
+                                    <path
+                                       d="M41.0021 80.8981C63.0086 80.8981 81.3014 62.6449 81.3014 40.5989C81.3014 18.5925 62.9691 0.299805 40.9627 0.299805C18.9166 0.299805 0.703125 18.5925 0.703125 40.5989C0.703125 62.6449 18.9562 80.8981 41.0021 80.8981ZM33.7721 55.8494C31.9545 56.9556 29.9002 56.0864 29.9002 54.19V27.0079C29.9002 25.1905 32.073 24.4003 33.7721 25.3881L55.9759 38.5444C57.5958 39.4926 57.6354 41.7447 55.9759 42.7324L33.7721 55.8494Z"
+                                       fill="#595959" fill-opacity="0.62" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_b_3644_568" x="-5.29688" y="-5.7002" width="92.5977"
+                                       height="92.5986" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
+                                       <feComposite in2="SourceAlpha" operator="in"
+                                          result="effect1_backgroundBlur_3644_568" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3644_568"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="reviews__slider-box">
+                        <div class="swiper reviews-slider">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide reviews-slide">
+                                 <div class="reviews-slide__body">
+                                    <div class="reviews__title-box">
+                                       <img class="reviews__img" src="images/slider/reviews-slider/user-img.jpg" alt="">
+                                       <div class="reviews__info-wrapper">
+                                          <div class="user__name">Игорь Рогов</div>
+                                          <div class="user__status">Знаток города 2 уровня</div>
+                                          <div class="user__date-inner">
+                                             <img class="user__score" src="images/main/star-img-gray.svg" alt="">
+                                             <span class="user__date">15 апреля</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="reviews__text-box">
+                                       <p class="reviews__text">
+                                          Заказывал остекление и отделку своей лоджии, в подарок сделали теплый пол.
+                                          Цены приемлемые, качество отличное, сначала полностью проконсультировали,
+                                          помогли подобрать дизайн.
+                                       </p>
+                                       <p class="reviews__text">
+                                          Саму работу монтажники Олег и Костя выполнили на отлично, остался доволен!
+                                          Всем рекомендую
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide reviews-slide">
+                                 <div class="reviews-slide__body">
+                                    <div class="reviews__title-box">
+                                       <img class="reviews__img" src="images/test-img.jpg" alt="">
+                                       <div class="reviews__info-wrapper">
+                                          <div class="user__name">Елена Иванова</div>
+                                          <div class="user__status">Знаток города 5 уровня</div>
+                                          <div class="user__date-inner">
+                                             <img class="user__score" src="images/main/star-img-gray.svg" alt="">
+                                             <span class="user__date">10 апреля</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="reviews__text-box">
+                                       <p class="reviews__text">
+                                          Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные
+                                          тексты.
+                                       </p>
+                                       <p class="reviews__text">
+                                          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                                          тексты.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide reviews-slide">
+                                 <div class="reviews-slide__body">
+                                    <div class="reviews__title-box">
+                                       <img class="reviews__img" src="images/test-img.jpg" alt="">
+                                       <div class="reviews__info-wrapper">
+                                          <div class="user__name">Екатерина Петрова</div>
+                                          <div class="user__status">Знаток города 3 уровня</div>
+                                          <div class="user__date-inner">
+                                             <img class="user__score" src="images/main/star-img-gray.svg" alt="">
+                                             <span class="user__date">15 апреля</span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="reviews__text-box">
+                                       <p class="reviews__text">
+                                          Решила там ему инициал сих города она необходимыми, прямо
+                                          власти? Переулка.
+                                       </p>
+                                       <p class="reviews__text">
+                                          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                                          тексты. Заголовок предупредила единственное пор переулка даль страну! Пояс, по
+                                          всей. Сих себя даже его, языкового рыбного коварный она дал жаренные свой.
+                                          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                                          тексты. Заголовок предупредила единственное пор переулка даль страну! Пояс, по
+                                          всей. Сих себя даже его, языкового рыбного коварный она дал жаренные свой.
+                                          Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные
+                                          тексты. Заголовок предупредила единственное пор переулка даль страну! Пояс, по
+                                          всей. Сих себя даже его, языкового рыбного коварный она дал жаренные свой.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="reviews-buttons__control">
+                           <div class="swiper-button-prev reviews-button-prev">
+                              <svg class="slider-btn-img reviews-button__img" width="100" height="101"
+                                 viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_d_3644_587)">
+                                    <path
+                                       d="M50.014 16.5996C33.4532 16.5996 20.028 30.0311 20.028 46.5996C20.028 63.1682 33.4532 76.5996 50.014 76.5996C66.5748 76.5996 80 63.1682 80 46.5996C80 30.0311 66.5748 16.5996 50.014 16.5996Z"
+                                       fill="white" />
+                                    <path class="slider-btn-arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M43.8076 45.993L43.1005 46.7001L53 56.5996L54.4142 55.1854L45.9289 46.7001L54.4142 38.2148L53 36.8006L43.8076 45.993Z"
+                                       fill="#1C1C1C" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_d_3644_587" x="0" y="0.599609" width="100" height="100"
+                                       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feColorMatrix in="SourceAlpha" type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                       <feOffset dy="4" />
+                                       <feGaussianBlur stdDeviation="10" />
+                                       <feComposite in2="hardAlpha" operator="out" />
+                                       <feColorMatrix type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+                                       <feBlend mode="normal" in2="BackgroundImageFix"
+                                          result="effect1_dropShadow_3644_587" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3644_587"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </div>
+                           <div class="swiper-button-next reviews-button-next">
+                              <svg class="slider-btn-img reviews-button__img" width="100" height="101"
+                                 viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_d_3644_591)">
+                                    <path
+                                       d="M49.986 76.5996C66.5468 76.5996 79.972 63.1682 79.972 46.5996C79.972 30.0311 66.5468 16.5996 49.986 16.5996C33.4252 16.5996 20 30.0311 20 46.5996C20 63.1682 33.4252 76.5996 49.986 76.5996Z"
+                                       fill="white" />
+                                    <path class="slider-btn-arrow" fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M56.1924 47.2062L56.8995 46.4991L47 36.5996L45.5858 38.0138L54.0711 46.4991L45.5858 54.9844L47 56.3986L56.1924 47.2062Z"
+                                       fill="#1C1C1C" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_d_3644_591" x="0" y="0.599609" width="100" height="100"
+                                       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feColorMatrix in="SourceAlpha" type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                       <feOffset dy="4" />
+                                       <feGaussianBlur stdDeviation="10" />
+                                       <feComposite in2="hardAlpha" operator="out" />
+                                       <feColorMatrix type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+                                       <feBlend mode="normal" in2="BackgroundImageFix"
+                                          result="effect1_dropShadow_3644_591" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3644_591"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </div>
+                           <div class="swiper-pagination reviews-pagination"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="download section-indent">
+            <h6 class="tech__title">каталог</h6>
+            <div class="container">
+               <div class="download__page">
+                  <div class="download__inner">
+                     <div class="download__content">
+                        <div class="download__title-box">
+                           <div class="download__title">
+                              <b> Скачайте</b> каталог <br>
+                              с примерами работ и ценами
+                           </div>
+                           <div class="download__sub-title">
+                              Обновлен 02.04.2023 г.
+                           </div>
+                        </div>
+                        <div class="download__list-box">
+                           <ul class="download__list">
+                              <li class="download__list-item">
+                                 <img class="download__images" src="images/icons/download-v-icon.svg" alt="">
+                                 <p class="download__item-text">
+                                    <b>Выполненные</b> проекты
+                                 </p>
+                              </li>
+                              <li class="download__list-item">
+                                 <img class="download__images" src="images/icons/download-v-icon.svg" alt="">
+                                 <p class="download__item-text">
+                                    <b>Актуальные</b> цены
+                                 </p>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="download__form-box">
+                           <form class="download__form" action="#">
+                              <div class="download__form-body">
+                                 <div class="download__body-social">
+                                    <div class="body-social__title">
+                                       Заполните форму <br>
+                                       и получите каталог
+                                    </div>
+                                    <div class="body-social__question">
+                                       Вышлем на удобный <br>
+                                       Вам мессенджер:
+                                    </div>
+                                    <ul class="download__social">
+                                       <li class="download__social-list">
+                                          <div class="social-list__wrapper">
+                                             <div class="download__block-item">
+                                                <div class="download__block-item-inner ">
+                                                   <label class="download-select__label">
+                                                      <input class="download-select__input" type="radio"
+                                                         value="WhatsApp" name="social-messager" checked>
+                                                      <span class="download-out__select-input">
+                                                         <svg class="download__social-img social-img-whatsapp"
+                                                            width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect x="0.5" y="0.414551" width="40" height="40" rx="20"
+                                                               fill="#20bc5f" fill-opacity="0.3" />
+                                                            <path
+                                                               d="M24.4355 22.1313C24.2227 22.022 23.1621 21.5024 22.9648 21.4321C22.7676 21.3579 22.623 21.3228 22.4805 21.5415C22.3359 21.7583 21.9258 22.2407 21.7969 22.3872C21.6719 22.5317 21.5449 22.5493 21.332 22.4419C20.0664 21.8091 19.2363 21.313 18.4023 19.8813C18.1816 19.5005 18.623 19.5278 19.0352 18.7056C19.1055 18.561 19.0703 18.438 19.0156 18.3286C18.9609 18.2192 18.5312 17.1606 18.3516 16.729C18.1777 16.3091 17.998 16.3677 17.8672 16.3599C17.7422 16.3521 17.5996 16.3521 17.4551 16.3521C17.3105 16.3521 17.0781 16.4067 16.8809 16.6196C16.6836 16.8364 16.127 17.3579 16.127 18.4165C16.127 19.4751 16.8984 20.5005 17.0039 20.645C17.1133 20.7896 18.5215 22.9614 20.6836 23.897C22.0508 24.4868 22.5859 24.5376 23.2695 24.436C23.6855 24.3735 24.543 23.9165 24.7207 23.4106C24.8984 22.9067 24.8984 22.4751 24.8457 22.3853C24.793 22.2896 24.6484 22.2349 24.4355 22.1313Z"
+                                                               fill="white" />
+                                                            <path
+                                                               d="M28.5704 17.0239C28.129 15.9751 27.4962 15.0337 26.6896 14.2251C25.8829 13.4185 24.9415 12.7837 23.8907 12.3442C22.8165 11.8931 21.6759 11.6646 20.5001 11.6646H20.461C19.2775 11.6704 18.131 11.9048 17.0528 12.3657C16.0118 12.811 15.0782 13.4438 14.2794 14.2505C13.4806 15.0571 12.8536 15.9946 12.42 17.0396C11.9708 18.1216 11.7443 19.272 11.7501 20.4556C11.756 21.811 12.0802 23.1567 12.6876 24.3599V27.3286C12.6876 27.8247 13.09 28.2271 13.586 28.2271H16.5568C17.7599 28.8345 19.1056 29.1587 20.461 29.1646H20.5021C21.672 29.1646 22.8068 28.938 23.8751 28.4946C24.92 28.0591 25.8595 27.4341 26.6642 26.6353C27.4708 25.8364 28.1056 24.9028 28.5489 23.8618C29.0099 22.7837 29.2442 21.6372 29.2501 20.4536C29.256 19.2642 29.0255 18.1099 28.5704 17.0239ZM25.6192 25.5786C24.2501 26.9341 22.4337 27.6802 20.5001 27.6802H20.4669C19.2892 27.6743 18.1193 27.3813 17.086 26.8306L16.922 26.7427H14.172V23.9927L14.0841 23.8286C13.5333 22.7954 13.2403 21.6255 13.2345 20.4478C13.2267 18.5005 13.9708 16.6724 15.336 15.2954C16.6993 13.9185 18.5216 13.1567 20.4689 13.1489H20.5021C21.4786 13.1489 22.4259 13.3384 23.3185 13.7134C24.1896 14.0786 24.9708 14.604 25.6427 15.2759C26.3126 15.9458 26.84 16.729 27.2052 17.6001C27.5841 18.5024 27.7735 19.4595 27.7696 20.4478C27.7579 22.3931 26.9942 24.2153 25.6192 25.5786Z"
+                                                               fill="white" />
+                                                         </svg>
+                                                      </span>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="download__social-message">WhatsApp</div>
+                                       </li>
+                                       <li class="download__social-list">
+                                          <div class="social-list__wrapper">
+                                             <div class="download__block-item">
+                                                <div class=" download__block-item-inner ">
+                                                   <label class="download-select__label">
+                                                      <input class="download-select__input" type="radio" value="Viber"
+                                                         name="social-messager">
+                                                      <span class="download-out__select-input">
+                                                         <svg class="download__social-img social-img-viber" width="41"
+                                                            height="41" viewBox="0 0 41 41" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect x="0.5" y="0.414551" width="40" height="40" rx="20"
+                                                               fill="#7360f2" fill-opacity="0.3" />
+                                                            <g clip-path="url(#clip0_2521_720)">
+                                                               <path
+                                                                  d="M23.7063 22.7208C23.875 22.2146 23.875 21.8208 23.8187 21.7083C23.7625 21.5958 23.65 21.5958 23.425 21.4833C23.2 21.3708 22.1875 20.8646 22.0188 20.8083C21.85 20.7521 21.625 20.7521 21.5125 20.9771C21.2875 21.2583 21.1188 21.5396 20.95 21.7083C20.8375 21.8208 20.6125 21.8771 20.4437 21.7646C20.2187 21.6521 19.5437 21.4271 18.7562 20.7521C18.1375 20.1896 17.7438 19.5146 17.575 19.2896C17.4625 19.0646 17.575 18.9521 17.6875 18.8396C17.8 18.7271 17.9125 18.6146 18.025 18.5021C18.1375 18.3896 18.1937 18.3333 18.25 18.1646C18.3063 18.0521 18.25 17.8833 18.1937 17.7708C18.1375 17.6583 17.7438 16.6458 17.575 16.2521C17.4625 15.9708 17.35 15.9708 17.125 15.9708C17.0687 15.9146 16.9563 15.9146 16.9 15.9146C16.6188 15.9146 16.3375 15.9708 16.1688 16.1958C15.9438 16.4208 15.4375 16.9271 15.4375 17.9396C15.4375 18.9521 16.1687 19.9646 16.2812 20.0771C16.3938 20.1896 17.7438 22.3271 19.825 23.2271C21.4563 23.9021 21.9625 23.8458 22.3 23.7896C22.8625 23.6208 23.5375 23.2271 23.7063 22.7208Z"
+                                                                  stroke="white" stroke-width="1.125"
+                                                                  stroke-miterlimit="10" stroke-linecap="round"
+                                                                  stroke-linejoin="round" />
+                                                               <path
+                                                                  d="M20.5 11.9771C15.8312 11.9771 12.0625 13.0458 12.0625 19.2896C12.0625 23.3395 13.6375 25.1958 16 26.0395V28.5145C16 28.852 16.3937 29.0208 16.675 28.7958L18.8688 26.602C19.375 26.602 19.9375 26.602 20.5 26.602C25.1688 26.602 28.9375 25.5333 28.9375 19.2896C28.9375 13.0458 25.1688 11.9771 20.5 11.9771Z"
+                                                                  stroke="white" stroke-width="1.125"
+                                                                  stroke-miterlimit="10" stroke-linecap="round"
+                                                                  stroke-linejoin="round" />
+                                                               <path
+                                                                  d="M20.2188 17.7146C20.95 17.7146 21.5125 18.2771 21.5125 19.0083"
+                                                                  stroke="white" stroke-width="1.125"
+                                                                  stroke-miterlimit="10" stroke-linecap="round"
+                                                                  stroke-linejoin="round" />
+                                                               <path
+                                                                  d="M20.2188 14.2271C22.8625 14.2271 25 16.3646 25 19.0083"
+                                                                  stroke="white" stroke-width="1.125"
+                                                                  stroke-miterlimit="10" stroke-linecap="round"
+                                                                  stroke-linejoin="round" />
+                                                               <path
+                                                                  d="M20.2188 15.9707C21.9062 15.9707 23.2562 17.3207 23.2562 19.0082"
+                                                                  stroke="white" stroke-width="1.125"
+                                                                  stroke-miterlimit="10" stroke-linecap="round"
+                                                                  stroke-linejoin="round" />
+                                                            </g>
+                                                            <defs>
+                                                               <clipPath id="clip0_2521_720">
+                                                                  <rect width="18" height="18" fill="white"
+                                                                     transform="translate(11.5 11.4146)" />
+                                                               </clipPath>
+                                                            </defs>
+                                                         </svg>
+                                                      </span>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="download__social-message">Viber</div>
+                                       </li>
+                                       <li class="download__social-list">
+                                          <div class="social-list__wrapper">
+                                             <div class="download__block-item">
+                                                <div class=" download__block-item-inner ">
+                                                   <label class="download-select__label">
+                                                      <input class="download-select__input" type="radio"
+                                                         value="Telegram" name="social-messager">
+                                                      <span class="download-out__select-input">
+                                                         <svg class="download__social-img social-img-telegram"
+                                                            width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <rect x="0.5" y="0.414551" width="40" height="40" rx="20"
+                                                               fill="#0088cc" fill-opacity="0.3" />
+                                                            <path
+                                                               d="M27.9874 14.5039L13.0137 20.4146L18.5303 21.2027M27.9874 14.5039L26.0172 26.3253L18.5303 21.2027M27.9874 14.5039L18.5303 21.2027M18.5303 21.2027V25.5372L21.0907 22.9545"
+                                                               stroke="white" stroke-width="1.18214"
+                                                               stroke-linecap="round" stroke-linejoin="round" />
+                                                         </svg>
+                                                      </span>
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="download__social-message">Telegram</div>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="download__body-contacts">
+                                    <div class="body-contacts__box ">
+                                       <div class="body-contacts__title">
+                                          Номер телефона:
+                                       </div>
+                                       <div class="download__contacts-inner">
+                                          <input class="download__contacts-input" type="tel"
+                                             placeholder="+7 (999) 999 99 99">
+                                       </div>
+                                    </div>
+                                    <div class="body-contacts__box ">
+                                       <button class="download__btn">
+                                          Скачать каталог
+                                       </button>
+                                    </div>
+                                    <div class="body-contacts__box ">
+                                       <p class="download__description">
+                                          Нажимая на кнопку “Скачать каталог”, вы даете согласие на обработку своих
+                                          персональных данных
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="catalog__pictures">
+                        <picture class="pictures-box">
+                           <source srcset="images/main/catalog-3.png" media="(max-width: 525px)">
+                           <source srcset="images/main/catalog-2.png" media="(max-width: 767px)">
+                           <img class="catalog__img" src="images/main/catalog-1.png" alt="">
+                        </picture>
+                        <div class="catalog-pdf__box">
+                           <img class="pdf__img" src="images/main/pdf-img.svg" alt="">
+                           <img class="pdf__img-2" src="images/main/pdf-img-2.svg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="questions section-indent">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title"><b>Ответы</b> на часто задаваемые вопросы</h3>
+                  </div>
+               </div>
+               <div class="questions__inner">
+                  <ul class="questions__block-items">
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Возможно ли остекление и отделка балкона в холодное время года?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">01</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные
+                                 тексты.
+                                 Жизни, залетают маленькая лучше, которой меня живет возвращайся пунктуация прямо
+                                 заглавных большой проектах океана сбить своих составитель? Предупредила, текстами
+                                 даже?
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Сколько дней занимает изготовление заказа и монтаж?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">02</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные
+                                 тексты.
+                                 Жизни, залетают маленькая лучше, которой меня живет возвращайся пунктуация прямо
+                                 заглавных большой проектах океана сбить своих составитель? Предупредила, текстами
+                                 даже?
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Можно ли вызвать замерщика если балкон завален вещами?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">03</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные
+                                 тексты.
+                                 Жизни, залетают маленькая лучше, которой меня живет возвращайся пунктуация прямо
+                                 заглавных большой проектах океана сбить своих составитель? Предупредила, текстами
+                                 даже?
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Какие возможны варианты оплаты?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">04</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Конденсат образуется на любом неутепленном балконе. Единственный способ
+                                 предотвратить запотевание стёкол при холодном остеклении — чаще проветривать,
+                                 открывать балконные створки и дверь в комнату одновременно. Если вы выбираете теплое
+                                 остекление с отделкой под ключ, то этой проблемы не возникнет, т.к. дополнительное
+                                 отопление – теплый пол, предотвратит образование конденсата.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Сколько стоит сделать «стандартный» балкон?"
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">05</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Конденсат образуется на любом неутепленном балконе. Единственный способ
+                                 предотвратить запотевание стёкол при холодном остеклении — чаще проветривать,
+                                 открывать балконные створки и дверь в комнату одновременно. Если вы выбираете теплое
+                                 остекление с отделкой под ключ, то этой проблемы не возникнет, т.к. дополнительное
+                                 отопление – теплый пол, предотвратит образование конденсата.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Чем отличается «холодное» остекление от «теплого»?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">06</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Конденсат образуется на любом неутепленном балконе. Единственный способ
+                                 предотвратить запотевание стёкол при холодном остеклении — чаще проветривать,
+                                 открывать балконные створки и дверь в комнату одновременно. Если вы выбираете теплое
+                                 остекление с отделкой под ключ, то этой проблемы не возникнет, т.к. дополнительное
+                                 отопление – теплый пол, предотвратит образование конденсата.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Что нужно делать, чтобы застекленный балкон не запотевал?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">07</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Конденсат образуется на любом неутепленном балконе. Единственный способ
+                                 предотвратить запотевание стёкол при холодном остеклении — чаще проветривать,
+                                 открывать балконные створки и дверь в комнату одновременно. Если вы выбираете теплое
+                                 остекление с отделкой под ключ, то этой проблемы не возникнет, т.к. дополнительное
+                                 отопление – теплый пол, предотвратит образование конденсата.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="questions__block-item">
+                        <div class="questions__item-body block" data-spollers>
+                           <button type="button" class="questions-spoller-btn  block__title" data-spoller>
+                              Какой гарантийный срок предоставляется на конструкции?
+                              <span class="spoller__num-inner">
+                                 <span class="spoller-btn__num">08</span>
+                              </span>
+                           </button>
+                           <div class="questions__item-text">
+                              <p>
+                                 Конденсат образуется на любом неутепленном балконе. Единственный способ
+                                 предотвратить запотевание стёкол при холодном остеклении — чаще проветривать,
+                                 открывать балконные створки и дверь в комнату одновременно. Если вы выбираете теплое
+                                 остекление с отделкой под ключ, то этой проблемы не возникнет, т.к. дополнительное
+                                 отопление – теплый пол, предотвратит образование конденсата.
+                              </p>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section class="measuring section-indent" id="measuring">
+            <div class="container">
+               <div class="measuring__inner">
+                  <ul class="measuring__items">
+                     <li class="measuring__item measuring__item--1">
+                        <div class="measuring__title-box" data-da=".measuring__inner,767,first">
+                           <h5 class="measuring__title">
+                              <b>Оставьте заявку</b> <br>
+                              на бесплатный замер
+                           </h5>
+                           <div class="measuring__sub-title">
+                              Выезд нашего мастера полностью <b>бесплатный</b> и ни к чему не обязывает
+                           </div>
+                        </div>
+                        <div class="measuring__form-box">
+                           <form class="measuring__form" action="#">
+                              <div class="measuring-form__title">
+                                 Телефон для вызова специалиста:
+                              </div>
+                              <div class="measuring__input-inner">
+                                 <input class="measuring__input" type="tel" placeholder="+7 (999) 999 99 99">
+                              </div>
+                              <a class="measuring__btn" data-fancybox data-src="#application" href="javascript:;">
+                                 Перезвонить и согласовать
+                              </a>
+                              <p class="measuring__description">
+                                 Нажимая на кнопку “Перезвонить и согласовать”, вы даете согласие на обработку своих
+                                 <a class="personal-data__link" href="#">персональных данных</a>
+                              </p>
+                           </form>
+                        </div>
+                     </li>
+                     <li class="measuring__item measuring__item--2">
+                        <div class="master__item-box">
+                           <div class="master__title">
+                              Что будет делать мастер на замере?
+                           </div>
+                           <ul class="master__list">
+                              <li class="master__list-item">
+                                 <img class="master__list-img" src="images/icons/master-icon.svg" alt="">
+                                 <div class="master__list-text">
+                                    <b>Привезет</b> образцы материалов отделки и оконного профиля
+                                 </div>
+                              </li>
+                              <li class="master__list-item">
+                                 <img class="master__list-img" src="images/icons/master-icon.svg" alt="">
+                                 <div class="master__list-text">
+                                    <b>Обьяснит</b> чем отличается дорогой профиль от экономичных конкурентов
+                                 </div>
+                              </li>
+                              <li class="master__list-item">
+                                 <img class="master__list-img" src="images/icons/master-icon.svg" alt="">
+                                 <div class="master__list-text">
+                                    <b>Обсудит</b> все интересующие моменты и ответит на Ваши вопросы
+                                 </div>
+                              </li>
+                              <li class="master__list-item">
+                                 <img class="master__list-img" src="images/icons/master-icon.svg" alt="">
+                                 <div class="master__list-text">
+                                    <b>Подготовит</b> расчет стоимости работ в течение 15 минут
+                                 </div>
+                              </li>
+                              <li class="master__list-item">
+                                 <img class="master__list-img" src="images/icons/master-icon.svg" alt="">
+                                 <div class="master__list-text">
+                                    <b>Заключит</b> договор и назначит дату доставки материалов и проведения работ
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+                     <li class="measuring__item measuring__item--3">
+                        <div class="swiper measuring-slider">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide measuring-slide">
+                                 <div class="measuring-slide__body">
+                                    <div class="master__pictures">
+                                       <img class="master__img" src="images/main/master-img.jpg" alt="">
+                                    </div>
+                                    <div class="master__info">
+                                       <div class="master__name">
+                                          Гильманов Руслан
+                                       </div>
+                                       <div class="master__position">
+                                          Инженер-замерщик
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide measuring-slide">
+                                 <div class="measuring-slide__body">
+                                    <div class="master__pictures">
+                                       <img class="master__img" src="images/test-img.jpg" alt="">
+                                    </div>
+                                    <div class="master__info">
+                                       <div class="master__name">
+                                          Петров Александр
+                                       </div>
+                                       <div class="master__position">
+                                          Инженер-замерщик
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide measuring-slide">
+                                 <div class="measuring-slide__body">
+                                    <div class="master__pictures">
+                                       <img class="master__img" src="images/main/master-img.jpg" alt="">
+                                    </div>
+                                    <div class="master__info">
+                                       <div class="master__name">
+                                          Гильманов Руслан
+                                       </div>
+                                       <div class="master__position">
+                                          Инженер-замерщик
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide measuring-slide">
+                                 <div class="measuring-slide__body">
+                                    <div class="master__pictures">
+                                       <img class="master__img" src="images/test-img.jpg" alt="">
+                                    </div>
+                                    <div class="master__info">
+                                       <div class="master__name">
+                                          Иванова Екатерина
+                                       </div>
+                                       <div class="master__position">
+                                          Инженер-замерщик
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-button-prev measuring-button-prev">
+                              <svg class="measuring-button__img" width="100" height="100" viewBox="0 0 100 100"
+                                 fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_d_3644_831)">
+                                    <path
+                                       d="M50.014 16C33.4532 16 20.028 29.4315 20.028 46C20.028 62.5685 33.4532 76 50.014 76C66.5748 76 80 62.5685 80 46C80 29.4315 66.5748 16 50.014 16Z"
+                                       fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M43.8076 45.3934L43.1005 46.1005L53 56L54.4142 54.5858L45.9289 46.1005L54.4142 37.6152L53 36.201L43.8076 45.3934Z"
+                                       fill="#1C1C1C" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_d_3644_831" x="0" y="0" width="100" height="100"
+                                       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feColorMatrix in="SourceAlpha" type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                       <feOffset dy="4" />
+                                       <feGaussianBlur stdDeviation="10" />
+                                       <feComposite in2="hardAlpha" operator="out" />
+                                       <feColorMatrix type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+                                       <feBlend mode="normal" in2="BackgroundImageFix"
+                                          result="effect1_dropShadow_3644_831" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3644_831"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </div>
+                           <div class="swiper-button-next measuring-button-next">
+                              <svg class="measuring-button__img" width="100" height="100" viewBox="0 0 100 100"
+                                 fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <g filter="url(#filter0_d_3644_835)">
+                                    <path
+                                       d="M49.986 76C66.5468 76 79.972 62.5685 79.972 46C79.972 29.4315 66.5468 16 49.986 16C33.4252 16 20 29.4315 20 46C20 62.5685 33.4252 76 49.986 76Z"
+                                       fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M56.1924 46.6066L56.8995 45.8995L47 36L45.5858 37.4142L54.0711 45.8995L45.5858 54.3848L47 55.799L56.1924 46.6066Z"
+                                       fill="#1C1C1C" />
+                                 </g>
+                                 <defs>
+                                    <filter id="filter0_d_3644_835" x="0" y="0" width="100" height="100"
+                                       filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                       <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                       <feColorMatrix in="SourceAlpha" type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                       <feOffset dy="4" />
+                                       <feGaussianBlur stdDeviation="10" />
+                                       <feComposite in2="hardAlpha" operator="out" />
+                                       <feColorMatrix type="matrix"
+                                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0" />
+                                       <feBlend mode="normal" in2="BackgroundImageFix"
+                                          result="effect1_dropShadow_3644_835" />
+                                       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3644_835"
+                                          result="shape" />
+                                    </filter>
+                                 </defs>
+                              </svg>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+
+         <section class="contacts section-indent" id="contacts">
+            <div class="container">
+               <div class="section-title__block">
+                  <div class="section-title__inner">
+                     <h3 class="section__title">Наши <b>контакты</b></h3>
+                     <h5 class="section__sub-title">
+                        за 2022 год выполнили работы на 870 балконах
+                     </h5>
+                  </div>
+               </div>
+               <div class="contacts__inner">
+                  <div class="contacts__items">
+                     <div class="contacts__item contacts__item--1">
+                        <div class="contacts__phone-box">
+                           <div class="contacts__phone-inner">
+                              <div class="contacts__time">
+                                 Ежедневно с 09:00 - 20:00
+                              </div>
+                              <a class="phone-contacts" href="tel:73422540202">
+                                 +7 (342) 254-02-02
+                              </a>
+                              <a class="contacts__phone-info" data-fancybox data-src="#call-back" href="javascript:;">
+                                 Перезвоним за 30 секунд
+                              </a>
+                           </div>
+                        </div>
+                        <div class="contacts__mail-box">
+                           <a class="contacts__mail" href="mailto:info@okna-nova.ru">
+                              info@okna-nova.ru
+                           </a>
+                        </div>
+                        <div class="contacts__address-box">
+                           <address class="contacts__address">
+                              г. Пермь <br>
+                              ул. Куйбышева, д. 82, оф. 433
+                           </address>
+                        </div>
+                        <div class="contacts__social-box">
+                           <div class="contacts__social-inner">
+                              <ul class="contacts__social-items">
+                                 <li class="social-item">
+                                    <a class="social-link" href="#">
+                                       <svg class="contacts__social-img social__img-whatsapp" width="40" height="41"
+                                          viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect y="0.5" width="40" height="40" rx="20" fill="#20BC5F" />
+                                          <path
+                                             d="M24.3289 22.3885C24.0947 22.2682 22.9281 21.6967 22.7111 21.6193C22.4941 21.5377 22.3352 21.499 22.1783 21.7396C22.0193 21.9781 21.5682 22.5088 21.4264 22.6699C21.2889 22.8289 21.1492 22.8482 20.915 22.7301C19.5229 22.034 18.6098 21.4883 17.6924 19.9135C17.4496 19.4945 17.9352 19.5246 18.3885 18.6201C18.4658 18.4611 18.4271 18.3258 18.367 18.2055C18.3068 18.0852 17.8342 16.9207 17.6365 16.4459C17.4453 15.984 17.2477 16.0484 17.1037 16.0398C16.9662 16.0312 16.8094 16.0312 16.6504 16.0312C16.4914 16.0312 16.2357 16.0914 16.0188 16.3256C15.8018 16.5641 15.1895 17.1377 15.1895 18.3021C15.1895 19.4666 16.0381 20.5945 16.1541 20.7535C16.2744 20.9125 17.8234 23.3016 20.2018 24.3307C21.7057 24.9795 22.2943 25.0354 23.0463 24.9236C23.5039 24.8549 24.4471 24.3521 24.6426 23.7957C24.8381 23.2414 24.8381 22.7666 24.7801 22.6678C24.7221 22.5625 24.5631 22.5023 24.3289 22.3885Z"
+                                             fill="white" />
+                                          <path
+                                             d="M28.8775 16.7703C28.3919 15.6166 27.6958 14.5811 26.8085 13.6916C25.9212 12.8043 24.8857 12.1061 23.7298 11.6227C22.5482 11.1264 21.2935 10.875 20.0001 10.875H19.9572C18.6552 10.8814 17.3941 11.1393 16.2081 11.6463C15.063 12.1361 14.0361 12.8322 13.1573 13.7195C12.2786 14.6068 11.589 15.6381 11.112 16.7875C10.6179 17.9777 10.3687 19.2432 10.3751 20.5451C10.3816 22.0361 10.7382 23.5164 11.4064 24.8398V28.1055C11.4064 28.6512 11.8489 29.0938 12.3947 29.0938H15.6624C16.9859 29.7619 18.4661 30.1186 19.9572 30.125H20.0023C21.2892 30.125 22.5374 29.8758 23.7126 29.3881C24.862 28.909 25.8954 28.2215 26.7806 27.3428C27.6679 26.4641 28.3661 25.4371 28.8538 24.292C29.3609 23.1061 29.6187 21.8449 29.6251 20.543C29.6316 19.2346 29.378 17.9648 28.8775 16.7703ZM25.6312 26.1805C24.1251 27.6715 22.1271 28.4922 20.0001 28.4922H19.9636C18.6681 28.4857 17.3812 28.1635 16.2447 27.5576L16.0642 27.4609H13.0392V24.4359L12.9425 24.2555C12.3366 23.1189 12.0144 21.832 12.0079 20.5365C11.9993 18.3945 12.8179 16.3836 14.3197 14.8689C15.8193 13.3543 17.8238 12.5164 19.9657 12.5078H20.0023C21.0765 12.5078 22.1185 12.7162 23.1003 13.1287C24.0585 13.5305 24.9179 14.1084 25.657 14.8475C26.3939 15.5844 26.9739 16.4459 27.3757 17.4041C27.7925 18.3967 28.0009 19.4494 27.9966 20.5365C27.9837 22.6764 27.1437 24.6809 25.6312 26.1805Z"
+                                             fill="white" />
+                                       </svg>
+                                    </a>
+                                 </li>
+                                 <li class="social-item">
+                                    <a class="social-link" href="#">
+                                       <svg class="contacts__social-img social__img-telegram" width="40" height="41"
+                                          viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <rect y="0.5" width="40" height="40" rx="20" fill="#0088CC"
+                                             fill-opacity="0.9" />
+                                          <path
+                                             d="M30 12.6052L10 20.5L17.3684 21.5526M30 12.6052L27.3684 28.3947L17.3684 21.5526M30 12.6052L17.3684 21.5526M17.3684 21.5526V27.3421L20.7882 23.8925"
+                                             stroke="white" stroke-width="1.57895" stroke-linecap="round"
+                                             stroke-linejoin="round" />
+                                       </svg>
+                                    </a>
+                                 </li>
+                              </ul>
+                              <p class="contacts__info">
+                                 Мы в мессенджерах
+                                 Ответим в течение 1 минуты
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="contacts__item contacts__item--2">
+                        <div class="contacts-pictures__title">
+                           Ждем вас в офисе!
+                        </div>
+                        <div class="contacts-pictures__inner">
+                           <div class="contacts-picture">
+                              <img class="contacts__images" src="images/main/contacts-img-01.jpg" alt="">
+                           </div>
+                           <div class="contacts-picture">
+                              <img class="contacts__images" src="images/main/contacts-img-02.jpg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="contacts__item contacts__item--3">
+                        <div class="maps__block">
+                           <div id="map-Nova" class="contacts-map"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      </main>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+               <div class="footer__top">
+                  <div class="footer__top-item footer__top-item--1">
+                     <a class="footer__logo" href="#">
+                        <img class="footer__logo-img" src="images/footer/footer-logo.svg" alt="">
+                     </a>
+                     <p class="footer__info">
+                        Ведущая международная компания по ремонту балконов и лоджий
+                     </p>
+                  </div>
+                  <div class="footer__top-item footer__top-item--2">
+                     <div class="footer__item-consultation">
+                        <div class="consultation__title-box">
+                           <div class="consultation__title-inner">
+                              <div class="consultation__title">
+                                 Нужна консультация?
+                              </div>
+                              <p class="consultation__text">
+                                 Перезвоним и ответим на вопросы
+                              </p>
+                           </div>
+                           <img class="consultation__img" src="images/footer/consultation-img.svg" alt="">
+                        </div>
+                        <div class="consultation__input-inner">
+                           <input class="consultation__input" type="tel" autocapitalize="off"
+                              placeholder="+7 (999) 999 99 99">
+                        </div>
+                        <a class="consultation__btn" data-fancybox data-src="#call-back" href="javascript:;">
+                           Перезвонить
+                        </a>
+                        <p class="consultation__info">
+                           Нажимая на кнопку “Перезвонить”, вы даете согласие на обработку своих персональных данных
+                        </p>
+                     </div>
+                  </div>
+                  <div class="footer__top-item footer__top-item--3">
+                     <div class="footer__navigation">
+                        <div class="footer__navigation-body block" data-spollers="435,max">
+                           <button class="footer__navigation-title block__title" data-spoller>
+                              Разделы сайта
+                           </button>
+                           <nav class="footer__menu">
+                              <ul class="footer-menu__list">
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Калькулятор стоимости</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Наши работы</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Дополнительные услуги</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Запись на замер</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Отзывы клиентов</a>
+                                 </li>
+                                 <li class="footer-menu__list-item">
+                                    <a class="footer-menu__list-link" href="#">Контакты</a>
+                                 </li>
+                              </ul>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer__top-item footer__top-item--4">
+                     <div class="footer__contacts">
+                        <div class="footer__phone-box">
+                           <div class="footer__phone-inner">
+                              <div class="footer__phone-connection">
+                                 Мы на связи
+                              </div>
+                              <a class="footer__phone" href="tel:73422540202">
+                                 +7 (342) 254-02-02
+                              </a>
+                              <a class="footer__call-back" data-fancybox data-src="#call-back" href="javascript:;">
+                                 Перезвоним за 30 секунд
+                              </a>
+                           </div>
+                        </div>
+                        <div class="footer__calculator-box">
+                           <div class="footer__calculator">
+                              <img class="footer__calculator-img" src="images/icons/calculator.svg" alt="">
+                              <a class="footer__calculator-text" href="#">
+                                 Калькулятор стоимости
+                                 отделки балкнов и лоджий
+                              </a>
+                           </div>
+                        </div>
+                        <div class="information__text-box">
+                           <div class="information__text">
+                              Обращаем ваше внимание на то, что данный интернет-сайт, а также вся информация о услугах и
+                              ценах, предоставленная на нём, носит исключительно информационный характер и ни при каких
+                              условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского
+                              кодекса Российской Федерации.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__bottom">
+                  <div class="footer__bottom-inner">
+                     <div class="footer__copy">© Окна Нова 2023</div>
+                     <a class="footer__copy-text" href="#">
+                        Политика обработки персональных данных
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+
+   <div class="popup__application" id="application">
+      <form class="popup__application-form" action="#">
+         <div class="popup__application-inner">
+            <div class="application__title-box">
+               <div class="application__title">
+                  Заявка
+               </div>
+               <div class="application__sub-title">
+                  Заполните форму и менеджер позвонит и ответит на все интересующие вопросы
+               </div>
+            </div>
+            <div class="application__user-box">
+               <div class="user__item">
+                  <label for="formNameModal" class="application-form__label">Имя:</label>
+                  <input id="formNameModal" type="text" name="name" class="application-form__input"
+                     placeholder="Иван Иванов" autocomplete="off">
+               </div>
+               <div class="user__item">
+                  <label for="formPhoneModal" class="application-form__label">Номер телефона:</label>
+                  <input id="formPhoneModal" type="tel" name="phone" class="application-form__input"
+                     placeholder="+7 (999) 999 99 99" autocomplete="off">
+               </div>
+            </div>
+            <div class="application__btn-box">
+               <a class="application__btn" data-fancybox data-src="#thanks" href="javascript:;">
+                  Отправить
+               </a>
+            </div>
+            <div class="application__description-box">
+               <p class="application__description">
+                  Нажимая на кнопку “Отправить”, вы даете согласие на обработку своих персональных данных
+               </p>
+            </div>
+         </div>
+      </form>
+   </div>
+
+   <div class="popup__call-back" id="call-back">
+      <form class="popup__call-back-form" action="#">
+         <div class="popup__call-back-inner">
+            <div class="call-back__title-box">
+               <div class="call-back__title">
+                  Перезвонить?
+               </div>
+               <div class="call-back__sub-title">
+                  Оставьте телефон и мы перезвоним в течение 5 минут
+               </div>
+            </div>
+            <div class="call-back__user-box">
+               <div class="user__item">
+                  <label for="formPhone" class="call-back-form__label">Номер телефона:</label>
+                  <input id="formPhone" type="tel" name="phone" class="call-back-form__input"
+                     placeholder="+7 (999) 999 99 99" autocomplete="off">
+               </div>
+            </div>
+            <div class="call-back__btn-box">
+               <button class="call-back__btn" type="submit">
+                  Перезвонить
+               </button>
+            </div>
+            <div class="call-back__description-box">
+               <p class="application__description">
+                  Нажимая на кнопку “Перезвонить”, вы даете согласие на обработку своих персональных данных
+               </p>
+            </div>
+         </div>
+      </form>
+   </div>
+
+   <div class="popup__thanks" id="thanks">
+      <form class="popup__thanks-form" action="#">
+         <div class="popup__thanks-inner">
+            <div class="popup__thanks-body">
+               <img class="popup__thanks-img" src="images/icons/thanks-icon.svg" alt="">
+               <div class="popup__thanks-title">Спасибо!</div>
+               <div class="popup__thanks-text">
+                  Наши менеджеры уже сражаются
+                  за возможность позвонить вам
+               </div>
+               <div class="popup__thanks-text">
+                  <b>Победитель скоро выйдет на связь!</b>
+               </div>
+            </div>
+         </div>
+      </form>
+   </div>
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=05bdd4e5-56c8-43b7-b091-e6deb9127b7f&lang=ru_RU"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
